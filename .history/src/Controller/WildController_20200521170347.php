@@ -28,7 +28,7 @@ class WildController extends AbstractController
     }
 
     /**
-     * @Route("/show/{slug}", requirements={"slug"="[a-z0-9-]+"}, defaults={"slug"=false}, name="slug")
+     * @Route("/show/{slug}", requirements={"slug"="[a-z0-9-]"}, defaults={"slug"=false}, name="slug")
      */
     public function show(string $slug) :Response
     {
